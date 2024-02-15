@@ -56,6 +56,7 @@ public class FrontControllerServletV3 extends HttpServlet {
 
     private MyView viewResolver(String viewName) {
         MyView view = new MyView("/WEB-INF/views/" + viewName + ".jsp");
+        System.out.println("hi");
         return view;
     }
 
